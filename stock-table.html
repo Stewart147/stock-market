@@ -1,0 +1,108 @@
+
+<html>
+<head>
+    <title>Table2</title>
+
+    <!-- Style Table using Internal CSS -->
+
+     <!-- border:collapse: collapse removes border inbetween cells
+        table tr:nth-child(odd) td { background-color: #e7edf0;
+        }  colors background for every alternative row   -->
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+        }
+
+        table th{
+            text-align: left;
+            background-color: #3a6070;
+            color: #fff;
+            padding: 4px 30px 4px 8px;
+        }
+
+        table td{
+            border: 1px solid #e3e3e3;
+            padding: 4px 8px;
+        }
+
+        table tr:nth-child(odd) td {
+            background-color: #e7edf0;
+        }
+
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <h1>Stocks</h1>
+
+    <table>
+        <tr>
+            <th>Stock Name</th>
+            <th>Open</th>
+            <th>Close</th>
+            <th>Change</th>
+        </tr>
+
+        <tr>
+            <td>Microsoft</td>
+            <td>$3.00</td>
+            <td>$3.20</td>
+            <td>UP</td>
+        </tr>
+
+        <tr>
+            <td>Tesla</td>
+            <td>$2.85</td>
+            <td>$2.90</td>
+            <td>UP</td>
+        </tr>
+
+        <tr>
+            <td>GE</td>
+            <td>$2.00</td>
+            <td>$1.95</td>
+            <td>DOWN</td>
+        </tr>
+
+        <tr>
+            <td>Apple</td>
+            <td>$3.00</td>
+            <td>$4.00</td>
+            <td>UP</td>
+        </tr>
+
+        
+
+
+
+
+
+
+
+    </table>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
